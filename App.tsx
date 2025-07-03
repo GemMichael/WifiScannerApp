@@ -28,7 +28,7 @@ function WifiScanner() {
   const [wifiList, setWifiList] = useState<WifiNetwork[]>([]);
 
   const scanWifi = async () => {
-    // 🔧 Permission and scan logic to be added by students later
+    // Permission and scan logic to be added by students later
     // This is a placeholder to simulate scan button
     setWifiList([
       { SSID: 'DICT-WIFI', BSSID: '00:11:22:33:44:55' },
